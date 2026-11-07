@@ -32,6 +32,7 @@ int main()
         marks[i] = userInputM;
         students[i] = userInputR;
     }
+    // Using selection sort
     int smallestI;
     int temp;
     for (int i = 0; i < SIZE - 1; i++)
