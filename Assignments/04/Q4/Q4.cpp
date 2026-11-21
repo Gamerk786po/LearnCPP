@@ -30,7 +30,7 @@ int main()
         cout << sum << " ";
     }
     cout << endl;
-    // frequencies index corresponds to the sum of which the frequency is stored
+    // frequencies index corresponds to the sum of which the frequency is storeds
     int const SIZE_FREQUENCIES = 13;
     int frequencies[SIZE_FREQUENCIES];
     int frequency = 0;
