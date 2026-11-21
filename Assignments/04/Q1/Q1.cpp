@@ -20,7 +20,7 @@ int main(){
     }while(true);
     // Writing runs array
     int run;
-    cout << "Enter runs scored in " << n << " match: ";
+    cout << "Enter runs scored in " << n << " matches: ";
     for(int i = 0; i < n; i++){
         // Validate if run is negative or not
         do{
@@ -37,7 +37,7 @@ int main(){
         totalRuns += runs[i];
     }
     battingAvg = static_cast<double>(totalRuns)/n;
-    cout << "Total run: " << totalRuns << endl;
+    cout << "Total runs: " << totalRuns << endl;
     cout << "Batting average: " << fixed << setprecision(2) << battingAvg << endl;
     // Finding index for highest and lowest run in the runs array which is
     // parrallel to matches array
